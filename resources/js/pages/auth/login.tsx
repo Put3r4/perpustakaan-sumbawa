@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Spinner } from '@/components/ui/spinner';
 import { register } from '@/routes';
-import { store } from '@/routes/login';
+import { store } from '@/actions/Laravel/Fortify/Http/Controllers/AuthenticatedSessionController';
 import { request } from '@/routes/password';
 
 type Props = {
